@@ -1,0 +1,43 @@
+:root {
+  /* primary */
+  --soft-blue: #1e90ff;
+  --cyan: hsl(178, 100%, 50%);
+  /* neutral */
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: var(--very-dark-blue-main-bg);
+  color: var(--soft-blue);
+}
+
+.container {
+  background: var(--very-dark-blue-card-bg);
+  border-radius: 20px;
+  margin: 10vh auto;
+  height: 600px;
+  width: 370px;
+  padding: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.icon1 {
+  height: 20px;
+  position: relative;
+  margin-right: 10px;
+}

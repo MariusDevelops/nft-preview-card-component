@@ -1,4 +1,4 @@
-import "./App.css";
+import "./dist/App.css";
 import ImgEquilibrium from "./images/image-equilibrium.jpg";
 import Icon1 from "./images/icon-ethereum.svg";
 import Icon2 from "./images/icon-clock.svg";

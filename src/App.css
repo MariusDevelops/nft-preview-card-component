@@ -1,6 +1,6 @@
 :root {
   /* primary */
-  --soft-blue: #1e90ff;
+  --soft-blue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
   /* neutral */
   --very-dark-blue-main-bg: hsl(217, 54%, 11%);
@@ -28,16 +28,66 @@ body {
   height: 600px;
   width: 370px;
   padding: 30px;
+  box-shadow: 0px 20px 5px 20px hsl(217, 54%, 10.5%),
+    3px 30px 10px 65px hsl(217, 54%, 10.9%);
 }
 
-.card {
+.image {
   border-radius: 20px;
   width: 100%;
   object-fit: contain;
 }
 
-.icon1 {
+h1 {
+  padding: 1rem 0;
+  color: var(--white);
+  font-weight: 600;
+}
+
+p {
+  padding-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.twoElements {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
   height: 20px;
   position: relative;
+  top: 5px;
   margin-right: 10px;
+}
+
+.icon1Text {
+  color: var(--cyan);
+  font-weight: 400;
+}
+
+.icon2Text {
+  font-weight: 400;
+}
+
+hr {
+  background-color: var(--very-dark-blue-line);
+  height: 1px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.image-avatar {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  width: 10%;
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+
+span {
+  color: var(--white);
 }

@@ -2,6 +2,7 @@ import "./App.css";
 import ImgEquilibrium from "./images/image-equilibrium.jpg";
 import Icon1 from "./images/icon-ethereum.svg";
 import Icon2 from "./images/icon-clock.svg";
+import ImgAvatar from "./images/image-avatar.png";
 
 function App() {
   return (
@@ -9,38 +10,43 @@ function App() {
       <Card />
       <Title />
       <Text />
-      <div>
+      <div className="twoElements">
         <EthereumIcon />
         <ClockIcon />
       </div>
+      <hr />
       <Author />
     </section>
   );
 }
 
 const Card = () => (
-  <img className="card" src={ImgEquilibrium} alt="card equilibrium" />
+  <img className="image" src={ImgEquilibrium} alt="card equilibrium" />
 );
 const Title = () => <h1>Equilibrium #3429</h1>;
 const Text = () => <p>Our Equilibrium collection promotes balance and calm.</p>;
 const EthereumIcon = () => {
   return (
-    <span>
-      <img className="icon1" src={Icon1} alt="equilibrium icon" />
+    <p className="icon1Text">
+      <img className="icon" src={Icon1} alt="equilibrium icon" />
       0.041 ETH
-    </span>
+    </p>
   );
 };
 const ClockIcon = () => {
   return (
-    <span>
-      <img className="icon1" src={Icon2} alt="clock icon" />
-      0.041 ETH
-    </span>
+    <p className="icon2Text">
+      <img className="icon" src={Icon2} alt="clock icon" />3 days left
+    </p>
   );
 };
 const Author = () => {
-  return <span className="image-avatar">Creation of Jules Wyvern</span>;
+  return (
+    <p>
+      <img className="image-avatar" src={ImgAvatar} alt="card equilibrium" />
+      Creation of <span>Jules Wyvern</span>
+    </p>
+  );
 };
 
 export default App;

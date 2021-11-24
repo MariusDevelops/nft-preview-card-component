@@ -3,11 +3,15 @@ import ImgEquilibrium from "./images/image-equilibrium.jpg";
 import Icon1 from "./images/icon-ethereum.svg";
 import Icon2 from "./images/icon-clock.svg";
 import ImgAvatar from "./images/image-avatar.png";
+import Icon3View from "./images/icon-view.svg";
 
 function App() {
   return (
     <section className="container">
-      <Card />
+      <div className="container2">
+        <Card></Card>
+        <CardHover />
+      </div>
       <Title />
       <Text />
       <div className="twoElements">
@@ -23,6 +27,12 @@ function App() {
 const Card = () => (
   <img className="image" src={ImgEquilibrium} alt="card equilibrium" />
 );
+const CardHover = () => (
+  <div className="overlay">
+    <img className="overlay-icon" src={Icon3View} alt="view icon" />
+  </div>
+);
+
 const Title = () => <h1>Equilibrium #3429</h1>;
 const Text = () => <p>Our Equilibrium collection promotes balance and calm.</p>;
 const EthereumIcon = () => {

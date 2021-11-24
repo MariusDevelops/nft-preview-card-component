@@ -32,16 +32,59 @@ body {
     3px 30px 10px 65px hsl(217, 54%, 10.9%);
 }
 
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
 .image {
+  display: block;
   border-radius: 20px;
   width: 100%;
   object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  border-radius: 20px;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay-icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 h1 {
   padding: 1rem 0;
   color: var(--white);
   font-weight: 600;
+}
+
+h1:hover {
+  color: var(--cyan);
+  cursor: pointer;
+  transition: 0.5s ease;
 }
 
 p {
@@ -90,4 +133,10 @@ hr {
 
 span {
   color: var(--white);
+}
+
+span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+  transition: 0.5s ease;
 }

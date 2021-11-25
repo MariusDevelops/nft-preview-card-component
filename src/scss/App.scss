@@ -130,3 +130,18 @@ span {
     @include cyan-pointer;
   }
 }
+
+.attribution {
+  text-align: center;
+  p {
+    font-size: 12px;
+    a {
+      color: $white;
+      text-decoration: none;
+      font-weight: weight(regular);
+      &:hover {
+        @include cyan-pointer;
+      }
+    }
+  }
+}

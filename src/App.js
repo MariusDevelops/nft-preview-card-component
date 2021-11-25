@@ -7,6 +7,7 @@ import Icon3View from "./images/icon-view.svg";
 
 function App() {
   return (
+    <main>
     <section className="container">
       <div className="container2">
         <Card></Card>
@@ -21,6 +22,8 @@ function App() {
       <hr />
       <Author />
     </section>
+    <Footer />
+    </main>
   );
 }
 
@@ -56,6 +59,16 @@ const Author = () => {
       <img className="image-avatar" src={ImgAvatar} alt="card equilibrium" />
       Creation of <span>Jules Wyvern</span>
     </p>
+  );
+};
+const Footer = () => {
+  return (
+    <div className="attribution">
+    <p>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noreferrer" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://mariusdevelops.github.io/" rel="noreferrer" target="_blank">Marius</a>.
+    </p>
+  </div>
   );
 };
 

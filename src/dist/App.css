@@ -139,4 +139,25 @@ span:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
+
+.attribution {
+  text-align: center;
+}
+
+.attribution p {
+  font-size: 12px;
+}
+
+.attribution p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.attribution p a:hover {
+  color: #00fff7;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
 /*# sourceMappingURL=App.css.map */

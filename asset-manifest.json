@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nft-preview-card-component/static/css/main.ecde2666.chunk.css",
-    "main.js": "/nft-preview-card-component/static/js/main.c1e18d96.chunk.js",
-    "main.js.map": "/nft-preview-card-component/static/js/main.c1e18d96.chunk.js.map",
+    "main.js": "/nft-preview-card-component/static/js/main.e41bfbd5.chunk.js",
+    "main.js.map": "/nft-preview-card-component/static/js/main.e41bfbd5.chunk.js.map",
     "runtime-main.js": "/nft-preview-card-component/static/js/runtime-main.da0c6fb9.js",
     "runtime-main.js.map": "/nft-preview-card-component/static/js/runtime-main.da0c6fb9.js.map",
     "static/js/2.47387615.chunk.js": "/nft-preview-card-component/static/js/2.47387615.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.da0c6fb9.js",
     "static/js/2.47387615.chunk.js",
     "static/css/main.ecde2666.chunk.css",
-    "static/js/main.c1e18d96.chunk.js"
+    "static/js/main.e41bfbd5.chunk.js"
   ]
 }
